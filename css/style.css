@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+header,main ,nav{ 
+    max-width: 1200px;
+    margin: auto;       
+}
+
+body{
+	padding: 0;
+	margin: 0;
+    background-image: url(../img/luces.jpg);
+    background-attachment: fixed;  
+}
+
+h1{font-size: 35px;
+    color: #e96e6e;
+    margin-top: 25px;
+    text-align: center;    
+}
+
+h1{display: none;}
+
+header{
+	height: 60px;
+}
+
+nav a{color: #e96e6e;
+      outline: 0
+}
+
+
+/******************** BUSCADOR DE PERSONAJE **********************/
+
+#buscador{
+    border: 2px solid #e96e6e;
+    border-radius: 5px;
+    height: 50px;
+    width: 270px;
+}
+
+#buscador:focus{
+    outline: 0;
+}
+
+.buscarboton{
+    height: 50px;
+    border-radius: 5px;
+    background-color: #e96e6e;
+    color: whitesmoke;
+    border: 2px solid #e96e6e;  
+}
+
+.buscarboton:focus{
+    outline: 0; 
+}
+
+/*-----------------------------------------------------------------*/
+
+.home, .favoritos, .episodios{
+    max-width: 600px;
+	width:100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 20px 20px;
+	display: flex;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.home div{
+    text-align: center;
+}
+
+.home div h1{
+	font-size: 0;
+}
+
+.home > div h2{
+    font-size: 32px;
+    color: #289bad;
+}
+
+.home div img{
+    max-width: 578px;
+    width: 100%;
+}
+
+.card{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: solid #e96e6e;
+
+}
+
+.card-title{
+	font-size: 20px;;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.guardoMiPersonaje, .eliminarPersonaje{
+    height:auto;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #e96e6e;
+    color: whitesmoke;
+    border: none;
+    margin-top: 5px;
+    transition: all 3s ease-in-out;
+    color: black;
+    border: none;
+    outline: none;  
+    text-align: center;
+    
+}
+
+.favoritos > div{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.favoritos > div h1{
+    font-size: 0px;
+}
+
+.favoritos > div h2{
+    font-size: 32px;
+    color: #e96e6e;
+}
+
+.favoritos > div img{
+    max-width: 578px;
+    width: 100%;
+}
+
+
+.contentMessage{
+    position: fixed;  
+    top: 20px;
+    width: 100vw;
+}
+.contentMessage div.alert.alert-danger{
+    max-width: 650px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+/******************** RELOAD **********************/
+
+.reloadelement{  
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.reloadelement img.reload{
+    max-width: 350px;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 640px){
+    .content_nav{
+        left: -100vw;
+        width: 100%;
+    }
+
+   
+}
+
+#episode-details {
+    margin-top: 20px;
+    margin-left: 1px;
+    background-color: #00a941;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+#episode-details.visible {
+    display: block;
+}
+
+#episode-details h2 {
+    color: #284d8d;
+    margin-bottom: 10px;
+}
+
+#episode-details p, ul {
+    list-style-type: none;
+    color: #ffffff;
+    margin: 5px 0;
+}
+#episode-input {
+    padding: 10px;
+    padding-left:px;
+    font-size: 18px;
+    border: none;
+    background-color: whitesmoke;
+    border: 2px solid #e96e6e; 
+    color: #000000;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+#imep{
+margin-left: -105px;
+position: fixed;
+}
+#search-button { 
+    height: 50px;
+    border-radius: 5px;
+    background-color: #e96e6e;
+    color: whitesmoke;
+    border: 2px solid #e96e6e; 
+}

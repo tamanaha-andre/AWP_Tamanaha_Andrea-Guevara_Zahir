@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">  
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="shortcut icon" href="./img/ico.png"/>
+		<title>TP2 AWP - Tamanaha Andrea - Guevara Zahir</title>
+	</head>
+
+
+<body>
+
+	<nav>
+
+		<ul class="nav nav-tabs">
+			<li class="nav-item">
+			
+			<a class="navbar-brand" href="index.html"> <img src="./img/home.png" width="75" height="75" alt="logo"></a> 
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="index.html">Personajes</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="favoritos.html">Mis Favoritos</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="episodios.html">Mis Episodios</a>
+			</li>
+
+		</ul>
+
+	</nav>
+
+
+
+	<main>
+		<section class="home">
+			<div>
+				<h1>Rick y Morty (creada por Justin Roiland y Dan Harmon)</h1>
+				<img src="img/portada.png" width="600" height="600" alt="portada">
+			</div>
+			<div class="buscador">
+				<input type="search" placeholder="Selecciona tu personaje" name="buscador" id="buscador" />
+				<button class="buscarboton" >Buscar</button>
+			</div>
+		</section>
+
+		<section>
+			<article id="contentResultado" class="container">
+				<div class="row" id="contentPersonaje">
+
+				</div>
+			</article>
+		</section>
+	</main>
+
+	
+	<script type="" src="js/index.js"></script>
+	<script type="" src="js/register-service_worker.js"></script>
+	<script type="" src="js/conexion.js"></script>
+
+</body>
+</html>

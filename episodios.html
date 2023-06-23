@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">  
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="shortcut icon" href="./img/ico.png"/>
+		<title>TP2 AWP - Tamanaha Andrea - Guevara Zahir</title>
+	</head>
+
+	<body>
+		<nav>
+		  <ul class="nav nav-tabs">
+			<li class="nav-item">
+			  <a class="navbar-brand" href="index.html">
+				<img src="./img/home.png" width="75" height="75" alt="logo">
+			  </a> 
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="index.html">Personajes</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="favoritos.html">Mis Favoritos</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="episodios.html">Mis Episodios</a>
+			</li>
+		  </ul>
+		</nav>
+	  
+		<main>
+		  <section class="episodios">
+			<div class="container">
+			  <div class="row flex-md-row flex-column-reverse">
+				<div class="col-md-6">
+				  <img id="imep" src="img/episodios.png" width="350" height="500" alt="episodios">
+				</div>
+				<div class="col-md-6">
+				  <h1>Ingrese el N° de episodio</h1>
+				  <div class="buscador d-flex align-items-start">
+					<input id="episode-input" type="text" placeholder="Ingrese el número de episodio" class="me-2">
+					<button id="search-button" class="btn btn-primary">Buscar</button>
+				  </div>
+				  <div class="row" id="episode-details">
+				  </div>
+			  </div>
+			  </div>
+			</div>	
+		  </section>
+		</main>
+	  
+		<script type="" src="js/episodios.js"></script>
+		<script type="" src="js/register-service_worker.js"></script>
+		<script type="" src="js/conexion.js"></script>
+	  </body>
+	  </html>
+	  
